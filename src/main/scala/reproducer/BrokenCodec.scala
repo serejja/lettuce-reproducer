@@ -4,7 +4,6 @@ import io.lettuce.core.codec.{RedisCodec, StringCodec}
 
 import java.nio.ByteBuffer
 import java.util.concurrent.atomic.AtomicBoolean
-import scala.util.Random
 
 object BrokenCodec extends RedisCodec[String, String] {
   private val exceptionThrown = new AtomicBoolean(false)

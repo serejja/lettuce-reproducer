@@ -6,6 +6,6 @@ lazy val root = (project in file("."))
   )
 
 libraryDependencies ++= Seq(
-  "io.lettuce" % "lettuce-core" % "6.2.4.RELEASE",
+  "io.lettuce" % "lettuce-core" % "6.2.6.RELEASE",
   "org.scala-lang.modules" %% "scala-java8-compat" % "0.9.0"
 )
